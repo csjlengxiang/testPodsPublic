@@ -15,6 +15,7 @@
 		641341041DD1A6160083ADBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641341021DD1A6160083ADBE /* LaunchScreen.storyboard */; };
 		6413410F1DD1A6170083ADBE /* testPodsPublicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413410E1DD1A6170083ADBE /* testPodsPublicTests.m */; };
 		6413411A1DD1A6170083ADBE /* testPodsPublicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 641341191DD1A6170083ADBE /* testPodsPublicUITests.m */; };
+		641341291DD1A7B30083ADBE /* testClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 641341281DD1A7B30083ADBE /* testClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		641341151DD1A6170083ADBE /* testPodsPublicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPodsPublicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		641341191DD1A6170083ADBE /* testPodsPublicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPodsPublicUITests.m; sourceTree = "<group>"; };
 		6413411B1DD1A6170083ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641341271DD1A7B30083ADBE /* testClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testClass.h; path = Classes/testClass.h; sourceTree = "<group>"; };
+		641341281DD1A7B30083ADBE /* testClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testClass.m; path = Classes/testClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				641341021DD1A6160083ADBE /* LaunchScreen.storyboard */,
 				641341051DD1A6160083ADBE /* Info.plist */,
 				641340F41DD1A6160083ADBE /* Supporting Files */,
+				641341271DD1A7B30083ADBE /* testClass.h */,
+				641341281DD1A7B30083ADBE /* testClass.m */,
 			);
 			path = testPodsPublic;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641341291DD1A7B30083ADBE /* testClass.m in Sources */,
 				641340FC1DD1A6160083ADBE /* ViewController.m in Sources */,
 				641340F91DD1A6160083ADBE /* AppDelegate.m in Sources */,
 				641340F61DD1A6160083ADBE /* main.m in Sources */,
