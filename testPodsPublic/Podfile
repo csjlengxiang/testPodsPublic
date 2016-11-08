@@ -1,0 +1,8 @@
+
+platform :ios, '9.0'
+
+target 'testPodsPublic' do
+
+    pod 'testPodsPublic', '~> 1.0.2'
+
+end

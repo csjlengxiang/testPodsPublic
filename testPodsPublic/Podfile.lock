@@ -1,0 +1,12 @@
+PODS:
+  - testPodsPublic (1.0.2)
+
+DEPENDENCIES:
+  - testPodsPublic (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  testPodsPublic: 40b5f6b1f9e3329d30eb408e121b69cc01b61fee
+
+PODFILE CHECKSUM: 4d61c5e8769685e8854f071f44b45ab7d31ab46d
+
+COCOAPODS: 1.1.1
