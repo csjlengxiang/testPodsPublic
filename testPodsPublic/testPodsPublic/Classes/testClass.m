@@ -12,6 +12,8 @@
 
 - (void)sayHi {
     NSLog(@"hi csj. this is the first time you try to make pods public lib");
+    
+    NSLog(@"this is version 1.0.3");
 }
 
 @end
